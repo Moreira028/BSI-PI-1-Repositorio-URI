@@ -1,21 +1,21 @@
-# Exercício - 1017
+#Exercício - 1017
 
 public class Ex18 {
    
-        public static void main(String[] args) {
-            Scanner leitor = new Scanner(System.in);
-            int T, VM; 
-            double D, V;
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+        int T, VM; 
+        double D, V;
+    
+        T = leitor.nextInt();
+        VM = leitor.nextInt();
+    
+        D = T * VM;
         
-            T = leitor.nextInt();
-            VM = leitor.nextInt();
-        
-            D = T * VM;
-            
-            V = D / 12;
-        
-            System.out.println(String.format ("%.3f", V));
-        }
+        V = D / 12;
+    
+        System.out.println(String.format ("%.3f", V));
+    }
 }
 
 Ferreira, Gabriel. moreira028@.gmail.com
